@@ -10,7 +10,7 @@ export default function me(req: NextApiRequest, res: NextApiResponse) {
       designation: 'Software Developer',
       logo: '/images/companies/headout.svg'
     },
-    logo: '/images/logo-light.svg',
+    logo: '/images/logo-colorful.svg',
     resume: 'https://drive.google.com/uc?export=download&id=1e1M4Q1DM27t81kx3ufmX_ZjemVsKyW2L',
     profile_img: '/images/bob.png',
     calendyUrl:

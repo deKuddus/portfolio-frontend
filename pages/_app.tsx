@@ -14,6 +14,7 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   useEffect(() => {
     setLoading(false);
   });
+
   const spring = {
     type: 'spring',
     damping: 20,
@@ -25,7 +26,7 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
     <div>
       <Head>
         <title>Abdul Kuddus | Software Developer</title>
-        <meta name="title" content="Abdul Kuddusl | Software Developer" />
+        <meta name="title" content="Abdul Kuddus | Software Developer" />
         <meta
           name="description"
           content="Abdul Kuddus is a Software Developer from Dhaka, Bangladesh. Abdul Kuddus is pursuing his undergraduate from UStC, Bangladesh."

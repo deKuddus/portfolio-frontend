@@ -9,6 +9,7 @@ import { Project } from 'shared/utils/types';
 export default function Projects(): JSX.Element {
   const router = useRouter();
   const projectDetails: Project[] = useContext(ProjectDetailsContext);
+
   return (
     <>
       <div>
@@ -76,12 +77,8 @@ export default function Projects(): JSX.Element {
         </div>
         <div className="relative h-auto sm:h-auto md:h-auto ml-4 sm:mx-12 md:mx-16" id="projects">
           <div className="grid md:grid-cols-2 gap-4 place-items-center">
-            {projectDetails.map((project: Project) => (
-              <ProjectCard
-                project={project}
-                key={project.slug}
-                filter={{ key: 'featured', value: true }}
-              />
+            {projectDetails.map((project: Project, key) => (
+              <ProjectCard project={project} key={key} filter={{ key: 'featured', value: true }} />
             ))}
           </div>
           <div className="flex justify-center mt-10 lg:mt-4">

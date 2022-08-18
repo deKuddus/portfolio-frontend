@@ -7,7 +7,7 @@
 MY Porfolio
 </p>
 <p align="center">
-crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://harshgoel.me">Harsh Goel</a>.
+crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://harshgoel.me">DEKUDDUS</a>.
 </p>
 
 > DEKUDDUS Developer Portfolio built on NextJS!
