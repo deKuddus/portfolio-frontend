@@ -34,11 +34,11 @@ export default function Connect(): JSX.Element {
             </div>
           </div>
           <div className="ml-auto w-full px-10 lg:px-20 lg:w-5/12 h-auto">
-            <InlineWidget
+            {/* <InlineWidget
               styles={{ height: '600px', width: '100%', margin: 'auto' }}
               pageSettings={{ textColor: '#B8C1EC', primaryColor: '#B8C1EC' }}
               url={calendyUrl}
-            />
+            /> */}
           </div>
         </div>
       </div>

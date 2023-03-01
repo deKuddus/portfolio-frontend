@@ -8,7 +8,18 @@ export default function Footer(): JSX.Element {
 
   return (
     <>
-      <footer className="p-4 bg-blue sm:p-6 dark:bg-gray-900">
+      <div className="w-full mx-auto py-4 text-white h-auto bg-blue flex justify-center items-center">
+        <hr className="w-1/5 sm:w-1/4 lg:w-96 border-violet" />
+        <p className="mx-3 md:mx-6 text-sm sm:text-7xl font-light">
+          Made with
+          <span role="img" aria-label="emoji" className="mx-2 animate-pulse">
+            ❤️
+          </span>
+          by <span className="text-pink">{name}</span>
+        </p>
+        <hr className="w-1/5 sm:w-1/4 lg:w-96 border-violet" />
+      </div>
+      {/* <footer className="p-4 bg-blue sm:p-6 dark:bg-gray-900">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="/" className="flex items-center">
@@ -126,7 +137,7 @@ export default function Footer(): JSX.Element {
             </a>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }
